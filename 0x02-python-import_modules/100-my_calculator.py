@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
 
     if op not in operator:
-        print("Unknow operator. Available operators: +, -, * and //")
+        print("Unknown operator. Available operators: +, -, * and /")
         sys.exit(1)
     result = function[operator.index(op)](a, b)
     print("{} {} {} = {}".format(a, op, b, result)) 
