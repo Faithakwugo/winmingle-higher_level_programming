@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-str = "WMG"
-print(f"{str} {str} {str} ", end="")
-print(str[0:9])
+st = "WMG"
+print(f"{st} {st} {st} ", end="")
+print(st[0:9])
